@@ -1,214 +1,135 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #2563eb;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-      letter-spacing: -0.02em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 400;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(37, 99, 235, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>홍대 유흥 추천정보 추천 | 홍대 밤문화 완전 가이드 2025</title>
+<meta name="description" content="홍대 유흥 정보 완벽 정리. 가격, 위치, 후기 기반 TOP 추천. 초보자도 안심하고 즐기는 홍대 나이트라이프.">
+<meta property="og:title" content="홍대 유흥 추천정보 추천 | 홍대 밤문화 완전 가이드 2025">
+<meta property="og:description" content="홍대 유흥 정보 완벽 정리. 가격, 위치, 후기 기반 TOP 추천. 초보자도 안심하고 즐기는 홍대 나이트라이프.">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1a0505;color:#fef2f2;font-family:'Noto Sans KR',sans-serif;min-height:100vh}
+.header{background:#450a0a;border-bottom:1px solid #991b1b;padding:24px 40px;display:flex;align-items:center;gap:20px}
+.header-icon{width:48px;height:48px;background:#dc2626;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.header-text h1{font-size:20px;font-weight:800}
+.header-text p{font-size:13px;color:#fca5a5;margin-top:2px}
+.hero-section{padding:80px 40px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#dc262622 0%,transparent 60%)}
+.big-title{font-size:clamp(32px,6vw,72px);font-weight:900;line-height:1.1;letter-spacing:-2px;margin-bottom:20px}
+.big-title .accent{color:#dc2626}
+.hero-desc{color:#fca5a5;font-size:18px;max-width:560px;margin:0 auto 40px;line-height:1.65}
+.hero-tags{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.hero-tag{background:#450a0a;border:1px solid #991b1b;color:#fca5a5;padding:6px 16px;border-radius:100px;font-size:13px}
+.hero-tag.active{background:#dc262622;border-color:#dc2626;color:#dc2626;font-weight:600}
+.hero-cta{display:inline-flex;gap:10px;align-items:center;background:#dc2626;color:#fff;padding:16px 40px;border-radius:12px;font-size:16px;font-weight:700;text-decoration:none}
+.stack-section{max-width:900px;margin:0 auto;padding:60px 24px}
+.stack-section h2{font-size:26px;font-weight:800;margin-bottom:8px}
+.stack-section .sub{color:#fca5a5;font-size:15px;margin-bottom:32px}
+.stack-card{background:#450a0a;border:1px solid #991b1b;border-radius:20px;padding:32px;margin-bottom:16px;display:grid;grid-template-columns:60px 1fr;gap:24px;align-items:start;transition:all .25s;cursor:default}
+.stack-card:hover{border-color:#dc2626;box-shadow:0 0 0 1px #dc262644,0 20px 60px #dc262611}
+.stack-num{font-size:48px;font-weight:900;color:#dc2626;opacity:0.25;line-height:1;text-align:center}
+.stack-body h3{font-size:20px;font-weight:700;margin-bottom:8px;line-height:1.3}
+.stack-body p{color:#fca5a5;font-size:15px;line-height:1.65;margin-bottom:16px}
+.stack-foot{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.badge{padding:5px 14px;border-radius:8px;font-size:12px;font-weight:600}
+.badge-accent{background:#dc262622;color:#dc2626}
+.badge-muted{background:#991b1b66;color:#fca5a5}
+.badge-price{background:#f8717122;color:#f87171;font-size:14px}
+.bottom-cta{background:#450a0a;border-top:1px solid #991b1b;padding:80px 40px;text-align:center}
+.bottom-cta h2{font-size:32px;font-weight:900;margin-bottom:16px}
+.bottom-cta p{color:#fca5a5;font-size:16px;max-width:500px;margin:0 auto 32px}
+.btn-group{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:#dc2626;color:#fff;padding:14px 36px;border-radius:10px;font-weight:700;text-decoration:none;font-size:15px}
+.btn-secondary{background:transparent;color:#dc2626;border:2px solid #dc2626;padding:14px 36px;border-radius:10px;font-weight:700;text-decoration:none;font-size:15px}
+footer{padding:24px 40px;text-align:center;color:#fca5a5;font-size:12px;border-top:1px solid #991b1b}
+</style>
+  <link rel="canonical" href="https://karaoke-sangsu-pro.xyz/">
+  <meta property="og:url" content="https://karaoke-sangsu-pro.xyz/">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="logo">KR.GEEK</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="content">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
+<div class="header">
+  <div class="header-icon">🎯</div>
+  <div class="header-text">
+    <h1>홍대 유흥 추천정보</h1>
+    <p>2025년 최신 정보 · 실방문 검증</p>
   </div>
+</div>
+<section class="hero-section">
+  <h1 class="big-title">홍대 &lt;span class=&quot;accent&quot;&gt;유흥&lt;/span&gt; 추천정보 완전 가이드</h1>
+  <p class="hero-desc">홍대 유흥 정보 완벽 정리. 가격, 위치, 후기 기반 TOP 추천. 초보자도 안심하고 즐기는 홍대 나이트라이프.</p>
+  <div class="hero-tags">
+    <span class="hero-tag active">✓ 실방문 검증</span>
+    <span class="hero-tag">가격 비교</span>
+    <span class="hero-tag">전문가 추천</span>
+    <span class="hero-tag">2025 최신</span>
+  </div>
+  <a href="#main" class="hero-cta">무료 예약 상담 →</a>
+</section>
+<section class="stack-section" id="main">
+  <h2>홍대 대표 업소 TOP 추천</h2>
+  <div class="sub">직접 검증한 정보만 엄선했습니다</div>
+  <div class="stack-card">
+    <div class="stack-num">01</div>
+    <div class="stack-body">
+      <h3>홍대 프리미엄 라운지 A</h3>
+      <p>고급 인테리어, 프라이빗 룸, VIP 서비스</p>
+      <div class="stack-foot">
+        <span class="badge badge-accent">하이엔드</span>
+        <span class="badge badge-price">1인 35,000원~</span>
+        <span class="badge badge-muted">★ 4.8</span>
+        
+      </div>
+    </div>
+  </div><div class="stack-card">
+    <div class="stack-num">02</div>
+    <div class="stack-body">
+      <h3>홍대 미러볼 클럽 B</h3>
+      <p>유명 DJ 상주, 넓은 댄스플로어, 음료 무제한</p>
+      <div class="stack-foot">
+        <span class="badge badge-accent">클럽</span>
+        <span class="badge badge-price">1인 25,000원~</span>
+        <span class="badge badge-muted">★ 4.6</span>
+        
+      </div>
+    </div>
+  </div><div class="stack-card">
+    <div class="stack-num">03</div>
+    <div class="stack-body">
+      <h3>홍대 감성 포차 C</h3>
+      <p>분위기 있는 조명, 감성 안주, 단체석 완비</p>
+      <div class="stack-foot">
+        <span class="badge badge-accent">포차</span>
+        <span class="badge badge-price">2인 60,000원~</span>
+        <span class="badge badge-muted">★ 4.7</span>
+        
+      </div>
+    </div>
+  </div><div class="stack-card">
+    <div class="stack-num">04</div>
+    <div class="stack-body">
+      <h3>홍대 루프탑 바 D</h3>
+      <p>도심 야경 뷰, 시그니처 칵테일, 예약 필수</p>
+      <div class="stack-foot">
+        <span class="badge badge-accent">루프탑</span>
+        <span class="badge badge-price">1인 30,000원~</span>
+        <span class="badge badge-muted">★ 4.5</span>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<div class="bottom-cta">
+  <h2>무료 예약 상담</h2>
+  <p>전문가에게 직접 물어보세요. 무료 상담 가능합니다.</p>
+  <div class="btn-group">
+    <a href="tel:010-0000-0000" class="btn-primary">무료 상담</a>
+    <a href="#main" class="btn-secondary">더보기</a>
+  </div>
+</div>
+<footer>© 2025 홍대 유흥 추천정보 — 참고용 정보 제공 사이트</footer>
 </body>
 </html>
