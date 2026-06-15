@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Design System Tags -->
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-night-signal">
+    
+    <!-- Meta Data -->
+    <title>홍대 유흥 추천정보 | 시간대와 밀도 분석을 통한 최적 경로 서ᄁ정</title>
+    <meta name="description" content="홍대 유흥 정보. 단순 리스트가 아닌, 시간대별 이동 효율성 및 구역별 특성을 분석하여 방문 경로를 최적화한 전문가 가이드입니다.">
+    <meta name="keywords" content="홍대 유흥 추천정보, 홍대 밤길 분석, 시간대별 유흥, 마곡/강서 접근법">
+    
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="홍대 유흥 최적 경로 분석 | 밤길의 신호등">
+    <meta property="og:description" content="단순한 명소 나열을 넘어, 시간대와 이동 경로를 고려한 홍대 유흥 정보입니다.">
+
+    <!-- CSS Import (Simulated for Structure) -->
+    <style>
+        /* Design System Variables & Reset */
+        :root {
+            --bg-color: #050a14;
+            --text-primary: #e6f1ff;
+            --accent-color: #2eb898;
+            --secondary-accent: #ffd700;
+            --card-bg: #0f172a;
+            --font-main: "Helvetica Neue", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            line-height: 1.6;
+        }
+
+        /* Layout Components */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        
+        h1, h2, h3 { font-weight: 800; text-transform: uppercase; letter-spacing: -0.5px; margin-bottom: 1rem; line-height: 1.1; }
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); color: var(--secondary-accent); }
+        h2 { font-size: 2rem; border-left: 5px solid var(--accent-color); padding-left: 1rem; margin-top: 3rem; }
+
+        .meta-info { color: #8b9bb4; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2rem; display: block; }
+        
+        /* Navigation */
+        nav { position: sticky; top: 0; background-color: rgba(5, 10, 20, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid #334155; z-index: 1000; padding: 1rem 0; }
+        .nav-inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 2rem; position: relative; width: 90%; }
+        
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--text-primary); text-decoration: none; }
+        
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: #cbd5e1; text-decoration: none; transition: color 0.3s; font-weight: 600; font-size: 0.9rem; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-color); }
+
+        /* Responsive Menu */
+        .menu-btn { display: none; background: none; border: 1px solid #334155; color: white; padding: 0.5rem 1rem; cursor: pointer; }
+
+        @media (max-width: 768px) {
+            .nav-links { position: absolute; top: 100%; left: 0; right: 0; background-color: var(--bg-color); flex-direction: column; padding: 2rem; display: none; border-bottom: 1px solid #334155; }
+            .nav-links.active { display: flex; }
+            .menu-btn { display: block; position: absolute; right: 0.5rem; top: 1.5rem; z-index: 1001; }
+            h1 { font-size: 2.5rem; text-align: center; }
+        }
+
+        /* Content Components */
+        .hero-section { padding: 4rem 0; border-bottom: 1px solid #334155; }
+        
+        .grid-2-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+        
+        .data-card { background-color: var(--card-bg); padding: 1.5rem; border: 1px solid #334155; position: relative; overflow: hidden; }
+        .data-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--accent-color); }
+        
+        .location-item { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding: 1rem 0; }
+        .loc-name { font-weight: bold; font-size: 1.2rem; color: var(--text-primary); max-width: 60%; }
+        .loc-meta { text-align: right; font-size: 0.9rem; color: #8b9bb4; display: flex; gap: 1.5rem; }
+
+        .faq-item { border-bottom: 1px dashed #334155; padding: 2rem 0; }
+        .q-text { font-weight: bold; color: var(--secondary-accent); margin-bottom: 0.5rem; display: block; }
+        
+        footer { margin-top: 4rem; padding: 3rem 0; border-top: 1px solid #334155; text-align: center; font-size: 0.9rem; color: #64748b; }
+
+        @media (max-width: 768px) {
+            .grid-2-col { grid-template-columns: 1fr; }
+            .location-item { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+            .loc-meta { text-align: left; width: 100%; justify-content: space-between; margin-top: 0.5rem; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">NIGHT TRANSIT MAP</a>
+            <ul class="nav-links" id="navMenu">
+                <li><a href="#">홈</a></li>
+                <li><a href="#" class="active">정보 분석</a></li>
+                <li><a href="#">지도 가이드</a></li>
+                <li><a href="#">접근성</a></li>
+            </ul>
+            <button class="menu-btn" onclick="document.getElementById('navMenu').classList.toggle('active')">MENU</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section: Contextual Overview -->
+        <section class="hero-section">
+
+<!-- SEO Visual 1: 홍대 유흥 추천정보 Brutalist Avant-Garde Hero -->
+<div class="seo-visual-hero" role="img" aria-label="강남 유흥 정보 — 홍대 홍대 유흥 추천정보" 
+     style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
+  <div style="max-width:1100px;margin:0 auto;padding:0 24px">
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
+    <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">홍대 유흥 추천정보</div>
+    <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">강남 유흥 정보</p>
+  </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"홍대 유흥 추천정보","description":"강남 유흥 정보","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+            <div class="container">
+                <span class="meta-info" style="color: var(--accent-color); margin-bottom: 1rem;">Category: Nightlife Analysis</span>
+                <h1>Hongdae District<br>Nightlife Density & Flow Chart</h1>
+                <p class="meta-info" style="font-size: 1.2rem; max-width: 800px;">
+                    홍대 앞은 단순한 거리명이 아닙니다. 이는 서울 서북부권에서 가장 높은 '시간당 인구 밀도'와 '소비 지출량'이 결합된 공간입니다.<br>
+                    본 가이드는 방문 목적과 이동 경로를 고려하여, 최적의 유흥 경험을 설계할 수 있는 데이터 중심 정보를 제공ᄕᅡᆸ니다.
+                </p>
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="홍대 유흥 추천정보 구분선" style="margin:80px 0;height:1px;background:#666666;opacity:0.1"></div>
+</section>
+
+<!-- SEO Visual 2: 유흥 Brutalist Typography Cards -->
+<div class="seo-visual-cards" role="img" aria-label="홍대 유흥 추천정보 유흥 — 강남 유흥 정보" 
+     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">홍대 유흥 추천정보</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">홍대 유흥 추천정보</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">홍대 유흥 추천정보</div>
+  </div>
+</div>
+
+        <!-- Analysis Data Grid -->
+        <section class="container">
+            <h2>01. 구역별 특성 및 밀도 분석 (Zone Analysis)</h2>
+            <p style="color: #94a3b8; margin-bottom: 2rem;">홍대 앞 지역은 크게 '서로 연결된 메인 스트리트'와 '특수 목적지'로 나뉩니다. 방문자의 목적에 맞춰 구역을 선택해야 시간 낭비가 최소화됩니다.</p>
+            
+            <div class="grid-2-col">
+                <!-- Card 1 -->
+                <div class="data-card">
+                    <h3 style="font-size: 1.5rem;">Zone A: 메인 스트리트 (본관)</h3>
+                    </body>
+</html>
