@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://blog.karaoke-sangsu-pro.xyz/sitemap.xml
+Sitemap: https://blog.karaoke-sangsu-pro.xyz/sitemap-pages.xml

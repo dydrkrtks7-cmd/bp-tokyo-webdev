@@ -1,212 +1,287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0654.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/checklist-003-1gb0svl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0656.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/checklist-004-1yopsdt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0658.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-002-jgnxc9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0660.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-003-14307g4.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0662.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-003-18k6fzr.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-003-1bex8gt.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-003-1fj299d.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/compare-003-7eor2l.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0653.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0654.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0655.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0656.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0657.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0658.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0659.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0660.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0661.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260707-0662.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0388.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0389.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0390.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0391.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0392.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0393.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0394.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0395.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0396.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260721-0397.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0122.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0123.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0124.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0125.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0126.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0127.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0128.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0129.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0130.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0131.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.karaoke-sangsu-pro.xyz/posts/gemini-coverage-20260722-0132.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/guide-001-1i344k1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/guide-001-1pydv6h.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/guide-001-dbelgv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/guide-001-tauxl8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/guide-001-xvkwee.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/myth-005-88crz6.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-001-134bj4r.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-001-1furfhj.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-001-muqh7z.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-002-1qg73k0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-002-1snfwzi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-002-pfghfs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-002-qw4xlv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/qa-002-vf77ax.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.karaoke-sangsu-pro.xyz/posts/review-001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
