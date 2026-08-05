@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.karaoke-sangsu-pro.xyz/sitemap.xml
-Sitemap: https://blog.karaoke-sangsu-pro.xyz/sitemap-pages.xml
+Sitemap: https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/sitemap.xml
+Sitemap: https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/sitemap-pages.xml
