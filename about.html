@@ -1,307 +1,305 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홍대 유흥 추천정보 — 상세 가이드</title>
-    <meta name="description" content="홍대 유흥 추천정보의 핵심을 파헤칩니다. 모호한 광고 문구 뒤에 숨은 실체, 업종별 차이, 방문 목적에 따른 최적 선택 기준을 날카롭게 분석합니다.">
-    <meta name="keywords" content="홍대 유흥, 홍대 유흥 추천정보, 유흥 용어 정리, 홍대 밤문화 가이드, 상수역 유흥">
-    <meta name="bpaas-design-system" content="organic-stripe">
-    <meta name="bpaas-design-theme" content="kr-organic-stripe">
-    <link rel="canonical" href="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/about.html">
-    <meta property="og:title" content="홍대 유흥 추천정보 — 상세 가이드">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/about.html">
-    <meta property="og:description" content="홍대 유흥 추천정보의 핵심을 파헤칩니다. 모호한 광고 문구 뒤에 숨은 실체, 업종별 차이, 방문 목적에 따른 최적 선택 기준을 날카롭게 분석합니다.">
-    <style>
-        :root {
-            --bg: #fafafa;
-            --surface: #ffffff;
-            --border: #e0e0e0;
-            --text-primary: #1a1a1a;
-            --text-secondary: #5c5c5c;
-            --text-muted: #8a8a8a;
-            --accent: #c62828;
-            --accent-hover: #b71c1c;
-            --spacing-xs: 8px;
-            --spacing-sm: 16px;
-            --spacing-md: 24px;
-            --spacing-lg: 40px;
-            --spacing-xl: 64px;
-            --radius-sm: 4px;
-            --radius-md: 8px;
-            --radius-lg: 12px;
-            --shadow-card: 0 1px 4px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.02);
-            --shadow-elevated: 0 4px 16px rgba(0,0,0,0.06), 0 8px 32px rgba(0,0,0,0.04);
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-primary);
-            line-height: 1.7;
-            letter-spacing: -0.01em;
-            -webkit-font-smoothing: antialiased;
-        }
-        .container-x900 {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 var(--spacing-md);
-        }
-        header {
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(12px);
-            background-color: rgba(255,255,255,0.92);
-        }
-        .nav-wrap-a1 {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: var(--spacing-sm) 0;
-            flex-wrap: wrap;
-            gap: var(--spacing-xs);
-        }
-        .logo-x82 {
-            font-weight: 700;
-            font-size: 1.3rem;
-            letter-spacing: -0.03em;
-            color: var(--text-primary);
-            text-decoration: none;
-            white-space: nowrap;
-        }
-        .logo-x82 span {
-            color: var(--accent);
-        }
-        .nav-links {
-            display: flex;
-            gap: var(--spacing-md);
-            list-style: none;
-            flex-wrap: wrap;
-        }
-        .nav-links a {
-            text-decoration: none;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.2s;
-            white-space: nowrap;
-        }
-        .nav-links a:hover {
-            color: var(--accent);
-        }
-        .hero-section-b2 {
-            padding: var(--spacing-xl) 0 var(--spacing-lg);
-            text-align: center;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: var(--spacing-lg);
-        }
-        h1 {
-            font-size: 2.6rem;
-            font-weight: 800;
-            letter-spacing: -0.04em;
-            line-height: 1.3;
-            margin-bottom: var(--spacing-sm);
-            color: var(--text-primary);
-        }
-        .hero-section-b2 p {
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .grid-layout-c3 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: var(--spacing-md);
-            margin-bottom: var(--spacing-xl);
-        }
-        .card-d4 {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: var(--spacing-lg) var(--spacing-md);
-            box-shadow: var(--shadow-card);
-            transition: box-shadow 0.25s, transform 0.2s;
-        }
-        .card-d4:hover {
-            box-shadow: var(--shadow-elevated);
-            transform: translateY(-3px);
-        }
-        .card-d4 h3 {
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-xs);
-            color: var(--text-primary);
-        }
-        .card-d4 .card-tag {
-            display: inline-block;
-            background: var(--accent);
-            color: #fff;
-            font-size: 0.7rem;
-            font-weight: 600;
-            padding: 2px 10px;
-            border-radius: 20px;
-            margin-bottom: var(--spacing-xs);
-            letter-spacing: 0.02em;
-        }
-        .card-d4 p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-        .info-block {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: var(--spacing-lg);
-            margin-bottom: var(--spacing-lg);
-        }
-        .info-block h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-sm);
-            letter-spacing: -0.03em;
-        }
-        .info-block p {
-            color: var(--text-secondary);
-            margin-bottom: var(--spacing-sm);
-            font-size: 0.95rem;
-        }
-        .faq-section-e5 {
-            margin: var(--spacing-xl) 0;
-        }
-        .faq-section-e5 h2 {
-            font-size: 1.6rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-md);
-        }
-        .faq-item {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            padding: var(--spacing-md);
-            margin-bottom: var(--spacing-sm);
-        }
-        .faq-item h4 {
-            font-weight: 700;
-            margin-bottom: 6px;
-            color: var(--text-primary);
-        }
-        .faq-item p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-        .footer-f6 {
-            border-top: 1px solid var(--border);
-            padding: var(--spacing-lg) 0;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.8rem;
-            margin-top: var(--spacing-xl);
-        }
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 1.9rem;
-            }
-            .container-x900 {
-                padding: 0 var(--spacing-sm);
-            }
-            .grid-layout-c3 {
-                grid-template-columns: 1fr;
-            }
-            .nav-links {
-                gap: var(--spacing-sm);
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>홍대 유흥 추천정보 — 상세 가이드</title>
+ <meta name="description" content="홍대 유흥 추천정보의 핵심을 파헤칩니다. 모호한 광고 문구 뒤에 숨은 실체, 업종별 차이, 방문 목적에 따른 최적 선택 기준을 날카롭게 분석합니다.">
+ <meta name="keywords" content="홍대 유흥, 홍대 유흥 추천정보, 유흥 용어 정리, 홍대 밤문화 가이드, 상수역 유흥">
+ <link rel="canonical" href="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/about.html">
+ <meta property="og:title" content="홍대 유흥 추천정보 — 상세 가이드">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/about.html">
+ <meta property="og:description" content="홍대 유흥 추천정보의 핵심을 파헤칩니다. 모호한 광고 문구 뒤에 숨은 실체, 업종별 차이, 방문 목적에 따른 최적 선택 기준을 날카롭게 분석합니다.">
+ <style>
+ :root {
+ --bg: #fafafa;
+ --surface: #ffffff;
+ --border: #e0e0e0;
+ --text-primary: #1a1a1a;
+ --text-secondary: #5c5c5c;
+ --text-muted: #8a8a8a;
+ --accent: #c62828;
+ --accent-hover: #b71c1c;
+ --spacing-xs: 8px;
+ --spacing-sm: 16px;
+ --spacing-md: 24px;
+ --spacing-lg: 40px;
+ --spacing-xl: 64px;
+ --radius-sm: 4px;
+ --radius-md: 8px;
+ --radius-lg: 12px;
+ --shadow-card: 0 1px 4px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.02);
+ --shadow-elevated: 0 4px 16px rgba(0,0,0,0.06), 0 8px 32px rgba(0,0,0,0.04);
+ }
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+ background-color: var(--bg);
+ color: var(--text-primary);
+ line-height: 1.7;
+ letter-spacing: -0.01em;
+ -webkit-font-smoothing: antialiased;
+ }
+ .container-x900 {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 0 var(--spacing-md);
+ }
+ header {
+ background: var(--surface);
+ border-bottom: 1px solid var(--border);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ backdrop-filter: blur(12px);
+ background-color: rgba(255,255,255,0.92);
+ }
+ .nav-wrap-a1 {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: var(--spacing-sm) 0;
+ flex-wrap: wrap;
+ gap: var(--spacing-xs);
+ }
+ .logo-x82 {
+ font-weight: 700;
+ font-size: 1.3rem;
+ letter-spacing: -0.03em;
+ color: var(--text-primary);
+ text-decoration: none;
+ white-space: nowrap;
+ }
+ .logo-x82 span {
+ color: var(--accent);
+ }
+ .nav-links {
+ display: flex;
+ gap: var(--spacing-md);
+ list-style: none;
+ flex-wrap: wrap;
+ }
+ .nav-links a {
+ text-decoration: none;
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ font-weight: 500;
+ transition: color 0.2s;
+ white-space: nowrap;
+ }
+ .nav-links a:hover {
+ color: var(--accent);
+ }
+ .hero-section-b2 {
+ padding: var(--spacing-xl) 0 var(--spacing-lg);
+ text-align: center;
+ border-bottom: 1px solid var(--border);
+ margin-bottom: var(--spacing-lg);
+ }
+ h1 {
+ font-size: 2.6rem;
+ font-weight: 800;
+ letter-spacing: -0.04em;
+ line-height: 1.3;
+ margin-bottom: var(--spacing-sm);
+ color: var(--text-primary);
+ }
+ .hero-section-b2 p {
+ color: var(--text-secondary);
+ font-size: 1.05rem;
+ max-width: 600px;
+ margin: 0 auto;
+ }
+ .grid-layout-c3 {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ gap: var(--spacing-md);
+ margin-bottom: var(--spacing-xl);
+ }
+ .card-d4 {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-lg);
+ padding: var(--spacing-lg) var(--spacing-md);
+ box-shadow: var(--shadow-card);
+ transition: box-shadow 0.25s, transform 0.2s;
+ }
+ .card-d4:hover {
+ box-shadow: var(--shadow-elevated);
+ transform: translateY(-3px);
+ }
+ .card-d4 h3 {
+ font-size: 1.15rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-xs);
+ color: var(--text-primary);
+ }
+ .card-d4 .card-tag {
+ display: inline-block;
+ background: var(--accent);
+ color: #fff;
+ font-size: 0.7rem;
+ font-weight: 600;
+ padding: 2px 10px;
+ border-radius: 20px;
+ margin-bottom: var(--spacing-xs);
+ letter-spacing: 0.02em;
+ }
+ .card-d4 p {
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ line-height: 1.6;
+ }
+ .info-block {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-lg);
+ padding: var(--spacing-lg);
+ margin-bottom: var(--spacing-lg);
+ }
+ .info-block h2 {
+ font-size: 1.5rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-sm);
+ letter-spacing: -0.03em;
+ }
+ .info-block p {
+ color: var(--text-secondary);
+ margin-bottom: var(--spacing-sm);
+ font-size: 0.95rem;
+ }
+ .faq-section-e5 {
+ margin: var(--spacing-xl) 0;
+ }
+ .faq-section-e5 h2 {
+ font-size: 1.6rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-md);
+ }
+ .faq-item {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-md);
+ padding: var(--spacing-md);
+ margin-bottom: var(--spacing-sm);
+ }
+ .faq-item h4 {
+ font-weight: 700;
+ margin-bottom: 6px;
+ color: var(--text-primary);
+ }
+ .faq-item p {
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ }
+ .footer-f6 {
+ border-top: 1px solid var(--border);
+ padding: var(--spacing-lg) 0;
+ text-align: center;
+ color: var(--text-muted);
+ font-size: 0.8rem;
+ margin-top: var(--spacing-xl);
+ }
+ @media (max-width: 768px) {
+ h1 {
+ font-size: 1.9rem;
+ }
+ .container-x900 {
+ padding: 0 var(--spacing-sm);
+ }
+ .grid-layout-c3 {
+ grid-template-columns: 1fr;
+ }
+ .nav-links {
+ gap: var(--spacing-sm);
+ }
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container-x900">
-            <nav class="nav-wrap-a1">
-                <a href="/" class="logo-x9">홍대<span>정보</span></a>
-                <ul class="nav-links">
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/guide">이용가이드</a></li>
-                    <li><a href="/info">정보</a></li>
-                    <li><a href="/faq">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container-x900">
+ <nav class="nav-wrap-a1">
+ <a href="/" class="logo-x9">홍대<span>정보</span></a>
+ <ul class="nav-links">
+ <li><a href="/">홈</a></li>
+ <li><a href="/guide">이용가이드</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/faq">FAQ</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
 
-    <main class="container-x900">
-        <section class="hero-section-b2">
-            <h1>홍대 유흥 추천정보 — 용어를 해부하다</h1>
-            <p class="subtitle">모호한 수식어에 가려진 실체를 직시하라. 당신이 마주할 선택지는 생각보다 단순하며, 그 기준은 더욱 냉정하다.</p>
-        </section>
+ <main class="container-x900">
+ <section class="hero-section-b2">
+ <h1>홍대 유흥 추천정보 — 용어를 해부하다</h1>
+ <p class="subtitle">모호한 수식어에 가려진 실체를 직시하라. 당신이 마주할 선택지는 생각보다 단순하며, 그 기준은 더욱 냉정하다.</p>
+ </section>
 
-        <section class="grid-layout-c3">
-            <div class="card-d4">
-                <span class="card-tag">필수 개념</span>
-                <h3>퍼블릭 vs 프라이빗</h3>
-                <p>공간의 성격을 가르는 첫 번째 분기점. 개방감을 원하는지, 통제된 밀폐를 원하는지 결정하라. '오픈형'이라는 말은 대개 퍼블릭을 의미하며, 이 경우 동선과 소음이 공유된다. 프라이빗은 반대로 모든 것이 차단된 독립 구역을 보장하지만, 그 대가로 비용이 약 1.5배에서 2배까지 뛴다.</p>
-            </div>
-            <div class="card-d4">
-                <span class="card-tag">지역 시그널</span>
-                <h3>상수역 경계선</h3>
-                <p>홍대입구역 3번 출구에서 상수역 방향으로 도보 7분 구간은 이른바 '밤 거리'의 농도가 급격히 변하는 지점이다. 이 경계를 넘으면 업장의 평균 단가와 서비스 구성이 달라지므로, 추천정보에서 '홍대 중심'이라 표기된 것과 '상수권'이라 표기된 것은 사실상 다른 카테고리로 분류해야 한다.</p>
-            </div>
-            <div class="card-d4">
-                <span class="card-tag">인원 분기</span>
-                <h3>2인 vs 4인 이상</h3>
-                <p>홍대 유흥 업장의 최소 결제 단위는 대개 2인에서 시작된다. 그러나 4인 이상이 되면 '룸' 기준으로 할당되는 공간이 커지고, 주류 세트 구성 자체가 바뀐다. 2인 방문 시에는 공간 협소와 기본 주류 구성의 제한을 감수해야 하며, 이것은 선택지가 아니라 구조적 한계다.</p>
-            </div>
-        </section>
+ <section class="grid-layout-c3">
+ <div class="card-d4">
+ <span class="card-tag">필수 개념</span>
+ <h3>퍼블릭 vs 프라이빗</h3>
+ <p>공간의 성격을 가르는 첫 번째 분기점. 개방감을 원하는지, 통제된 밀폐를 원하는지 결정하라. '오픈형'이라는 말은 대개 퍼블릭을 의미하며, 이 경우 동선과 소음이 공유된다. 프라이빗은 반대로 모든 것이 차단된 독립 구역을 보장하지만, 그 대가로 비용이 약 1.5배에서 2배까지 뛴다.</p>
+ </div>
+ <div class="card-d4">
+ <span class="card-tag">지역 시그널</span>
+ <h3>상수역 경계선</h3>
+ <p>홍대입구역 3번 출구에서 상수역 방향으로 도보 7분 구간은 이른바 '밤 거리'의 농도가 급격히 변하는 지점이다. 이 경계를 넘으면 업장의 평균 단가와 서비스 구성이 달라지므로, 추천정보에서 '홍대 중심'이라 표기된 것과 '상수권'이라 표기된 것은 사실상 다른 카테고리로 분류해야 한다.</p>
+ </div>
+ <div class="card-d4">
+ <span class="card-tag">인원 분기</span>
+ <h3>2인 vs 4인 이상</h3>
+ <p>홍대 유흥 업장의 최소 결제 단위는 대개 2인에서 시작된다. 그러나 4인 이상이 되면 '룸' 기준으로 할당되는 공간이 커지고, 주류 세트 구성 자체가 바뀐다. 2인 방문 시에는 공간 협소와 기본 주류 구성의 제한을 감수해야 하며, 이것은 선택지가 아니라 구조적 한계다.</p>
+ </div>
+ </section>
 
-        <section class="info-block">
-            <h2>용어의 거짓말 — '하이퀄리티'의 실체</h2>
-            <p>추천정보에서 가장 흔하게 등장하는 표현은 '하이퀄리티'다. 이것은 대개 인테리어의 신선도, 조명의 연출 수준, 그리고 가용 직원의 평균 연령대를 포괄하는, 의도적으로 뭉뚱그려진 개념이다. 구체적인 기준 없이 '퀄리티가 높다'고 주장하는 곳일수록 실제로는 가격 프리미엄을 정당화하기 위한 수사에 가깝다. 반드시 방문 전에 '하이퀄리티'가 의미하는 바를 분해해서 물어봐야 한다. 인테리어인가, 사운드 시스템인가, 아니면 다른 요소인가.</p>
-            <p>또 하나의 함정은 '무제한'이다. 주류 무제한, 시간 무제한이라는 문구는 대부분 제한된 범위 내에서만 작동한다. 기본 안주만 무제한이거나, 지정 주류만 무제한이고 프리미엄 라인으로 넘어가는 순간 전혀 다른 과금 체계가 작동한다. '무제한'이라는 말을 볼 때마다 반드시 '무엇이 제한되어 있는가'를 역으로 질문하는 습관이 필요하다.</p>
-        </section>
+ <section class="info-block">
+ <h2>용어의 거짓말 — '하이퀄리티'의 실체</h2>
+ <p>추천정보에서 가장 흔하게 등장하는 표현은 '하이퀄리티'다. 이것은 대개 인테리어의 신선도, 조명의 연출 수준, 그리고 가용 직원의 평균 연령대를 포괄하는, 의도적으로 뭉뚱그려진 개념이다. 구체적인 기준 없이 '퀄리티가 높다'고 주장하는 곳일수록 실제로는 가격 프리미엄을 정당화하기 위한 수사에 가깝다. 반드시 방문 전에 '하이퀄리티'가 의미하는 바를 분해해서 물어봐야 한다. 인테리어인가, 사운드 시스템인가, 아니면 다른 요소인가.</p>
+ <p>또 하나의 함정은 '무제한'이다. 주류 무제한, 시간 무제한이라는 문구는 대부분 제한된 범위 내에서만 작동한다. 기본 안주만 무제한이거나, 지정 주류만 무제한이고 프리미엄 라인으로 넘어가는 순간 전혀 다른 과금 체계가 작동한다. '무제한'이라는 말을 볼 때마다 반드시 '무엇이 제한되어 있는가'를 역으로 질문하는 습관이 필요하다.</p>
+ </section>
 
-        <section class="info-block">
-            <h2>시간대별 선택 기준</h2>
-            <p>홍대 유흥의 피크 타임은 금요일과 토요일 오후 10시부터 새벽 2시까지다. 이 시간대에 예약 없이 진입할 수 있는 업장은 극히 제한적이며, 있다 하더라도 '남는 방'의 퀄리티는 기대 이하다. 반대로, 일요일부터 목요일까지의 이른 시간대(오후 7시~9시)는 이른바 '웰컴 타임'으로, 동일한 공간과 서비스를 최대 30% 할인된 비용으로 이용할 수 있는 경우가 많다. 추천정보에서 이 시간대별 가격 변동을 언급하지 않는다면, 그 정보는 불완전한 것이다.</p>
-            <p>시즌 변수도 존재한다. 대학생들의 시험 기간, 공휴일 전일, 그리고 졸업 시즌은 수요 급등으로 이어진다. 이 시기에는 추천정보에서 제시하는 '기본 가격' 자체가 의미를 잃고, 현장에서 변동되는 시세가 적용된다. 방문을 계획하고 있다면 반드시 방문일 기준 3일 전에 현장가를 재확인하는 것이 안전하다.</p>
-        </section>
+ <section class="info-block">
+ <h2>시간대별 선택 기준</h2>
+ <p>홍대 유흥의 피크 타임은 금요일과 토요일 오후 10시부터 새벽 2시까지다. 이 시간대에 예약 없이 진입할 수 있는 업장은 극히 제한적이며, 있다 하더라도 '남는 방'의 퀄리티는 기대 이하다. 반대로, 일요일부터 목요일까지의 이른 시간대(오후 7시~9시)는 이른바 '웰컴 타임'으로, 동일한 공간과 서비스를 최대 30% 할인된 비용으로 이용할 수 있는 경우가 많다. 추천정보에서 이 시간대별 가격 변동을 언급하지 않는다면, 그 정보는 불완전한 것이다.</p>
+ <p>시즌 변수도 존재한다. 대학생들의 시험 기간, 공휴일 전일, 그리고 졸업 시즌은 수요 급등으로 이어진다. 이 시기에는 추천정보에서 제시하는 '기본 가격' 자체가 의미를 잃고, 현장에서 변동되는 시세가 적용된다. 방문을 계획하고 있다면 반드시 방문일 기준 3일 전에 현장가를 재확인하는 것이 안전하다.</p>
+ </section>
 
-        <section class="faq-section-e5">
-            <h2>자주 묻는 질문 — 정보 편</h2>
-            <div class="faq-item">
-                <h4>Q. '주대'라는 표현이 정확히 무엇인가요?</h4>
-                <p>주대는 주류 대금의 줄임말로, 1인 기준으로 산정되는 주류 비용을 의미한다. 홍대 지역에서 이 용어가 사용될 때는 대개 기본적인 칵테일이나 위스키 하이볼류를 포함하며, 이 금액을 지불하면 해당 업장의 베이스 라인에 접근할 수 있다. 주대 외에 별도로 '생맥주 무제한'이나 '와인 업그레이드' 같은 항목이 붙는 경우가 일반적이다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Q. '셔츠룸', '레깅스룸' 용어의 차이는 무엇인가요?</h4>
-                <p>이 용어들은 근무 스태프의 복장 콘셉트를 지칭하며, 홍대 일대에서 업장의 분위기와 가격대를 결정짓는 주요 지표다. 셔츠룸은 오피스 스타일의 포멀한 이미지를, 레깅스룸은 스포티하고 캐주얼한 분위기를 표방한다. 어느 쪽이 더 나은지는 선호도에 달려 있지만, 중요한 것은 '복장' 자체가 서비스의 질이나 인원의 숙련도를 보장하지는 않는다는 점이다. 단지 콘셉트에 불과하다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Q. 추천정보에서 '입구 픽업'이란 어떤 의미인가요?</h4>
-                <p>홍대역이나 상수역 근처에서 이용자를 만나 업장까지 안내하는 서비스를 의미한다. 혼잡한 밤거리에서 길을 찾는 수고를 덜어주지만, 이 서비스가 제공되는 업장은 대개 접근성이 낮거나 외부 간판이 없는 '숨은' 장소에 위치한 경우가 많다. 입구 픽업이 제공된다면, 반대로 말해 해당 업장이 찾기 어렵거나, 의도적으로 노출을 피하는 운영 방식을 취하고 있다고 해석할 수 있다.</p>
-            </div>
-        </section>
+ <section class="faq-section-e5">
+ <h2>자주 묻는 질문 — 정보 편</h2>
+ <div class="faq-item">
+ <h4>Q. '주대'라는 표현이 정확히 무엇인가요?</h4>
+ <p>주대는 주류 대금의 줄임말로, 1인 기준으로 산정되는 주류 비용을 의미한다. 홍대 지역에서 이 용어가 사용될 때는 대개 기본적인 칵테일이나 위스키 하이볼류를 포함하며, 이 금액을 지불하면 해당 업장의 베이스 라인에 접근할 수 있다. 주대 외에 별도로 '생맥주 무제한'이나 '와인 업그레이드' 같은 항목이 붙는 경우가 일반적이다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>Q. '셔츠룸', '레깅스룸' 용어의 차이는 무엇인가요?</h4>
+ <p>이 용어들은 근무 스태프의 복장 콘셉트를 지칭하며, 홍대 일대에서 업장의 분위기와 가격대를 결정짓는 주요 지표다. 셔츠룸은 오피스 스타일의 포멀한 이미지를, 레깅스룸은 스포티하고 캐주얼한 분위기를 표방한다. 어느 쪽이 더 나은지는 선호도에 달려 있지만, 중요한 것은 '복장' 자체가 서비스의 질이나 인원의 숙련도를 보장하지는 않는다는 점이다. 단지 콘셉트에 불과하다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>Q. 추천정보에서 '입구 픽업'이란 어떤 의미인가요?</h4>
+ <p>홍대역이나 상수역 근처에서 이용자를 만나 업장까지 안내하는 서비스를 의미한다. 혼잡한 밤거리에서 길을 찾는 수고를 덜어주지만, 이 서비스가 제공되는 업장은 대개 접근성이 낮거나 외부 간판이 없는 '숨은' 장소에 위치한 경우가 많다. 입구 픽업이 제공된다면, 반대로 말해 해당 업장이 찾기 어렵거나, 의도적으로 노출을 피하는 운영 방식을 취하고 있다고 해석할 수 있다.</p>
+ </div>
+ </section>
 
-        <section class="info-block">
-            <h2>추천정보 뒤에 숨은 경제 논리</h2>
-            <p>홍대 유흥 추천정보의 대다수는 제휴 업장 리스트에서 출발한다. 추천 순위가 '알파벳이 정한 순서'로 보이지만, 실제로는 수수료 구조, 건당 지급 단가, 그리고 최소 보증 인원 수에 따라 결정되는 경우가 태반이다. 상위 노출된 업장이 반드시 '가장 나은 경험'을 제공하는 것은 아니며, 단지 '가장 높은 마진을 제공하는 곳'일 가능성을 배제할 수 없다. 정보를 소비하는 사람은 이 구조적 이해관계를 인지해야 한다.</p>
-            <p>또한 '오늘의 추천' 같은 실시간 추천 시스템은 예약 현황과 직결된다. 비어 있는 방을 채우기 위해 급히 '추천'으로 올라온 업장은, 피크 시간이 지난 후에 서비스가 쏠리거나 직원이 피로한 상태일 확률이 높다. 실시간 추천은 '인기'의 신호라기보다 '공섭'의 신호로 읽는 편이 더 정확하다. 이 냉정한 시선이 당신의 시간과 비용을 보호한다.</p>
-        </section>
-    </main>
+ <section class="info-block">
+ <h2>추천정보 뒤에 숨은 경제 논리</h2>
+ <p>홍대 유흥 추천정보의 대다수는 제휴 업장 리스트에서 출발한다. 추천 순위가 '알파벳이 정한 순서'로 보이지만, 실제로는 수수료 구조, 건당 지급 단가, 그리고 최소 보증 인원 수에 따라 결정되는 경우가 태반이다. 상위 노출된 업장이 반드시 '가장 나은 경험'을 제공하는 것은 아니며, 단지 '가장 높은 마진을 제공하는 곳'일 가능성을 배제할 수 없다. 정보를 소비하는 사람은 이 구조적 이해관계를 인지해야 한다.</p>
+ <p>또한 '오늘의 추천' 같은 실시간 추천 시스템은 예약 현황과 직결된다. 비어 있는 방을 채우기 위해 급히 '추천'으로 올라온 업장은, 피크 시간이 지난 후에 서비스가 쏠리거나 직원이 피로한 상태일 확률이 높다. 실시간 추천은 '인기'의 신호라기보다 '공섭'의 신호로 읽는 편이 더 정확하다. 이 냉정한 시선이 당신의 시간과 비용을 보호한다.</p>
+ </section>
+ </main>
 
-    <footer class="footer-f6">
-        <div class="container-x900">
-            <p>© 2025 홍대 유흥 정보 가이드. 이 사이트는 정보 제공 목적으로만 존재하며, 특정 업장 방문을 권유하거나 보증하지 않습니다.</p>
-        </div>
-    </footer>
+ <footer class="footer-f6">
+ <div class="container-x900">
+ <p>© 2025 홍대 유흥 정보 가이드. 이 사이트는 정보 제공 목적으로만 존재하며, 특정 업장 방문을 권유하거나 보증하지 않습니다.</p>
+ </div>
+ </footer>
 </body>
 </html>
