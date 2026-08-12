@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (3/3) · tokyo-webdev</title>
+  <meta name="description" content="tokyo-webdev에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/posts-3.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --bg: #fafafa;
+ --surface: #ffffff;
+ --border: #e0e0e0;
+ --text-primary: #1a1a1a;
+ --text-secondary: #5c5c5c;
+ --text-muted: #8a8a8a;
+ --accent: #c62828;
+ --accent-hover: #b71c1c;
+ --spacing-xs: 8px;
+ --spacing-sm: 16px;
+ --spacing-md: 24px;
+ --spacing-lg: 40px;
+ --spacing-xl: 64px;
+ --radius-sm: 4px;
+ --radius-md: 8px;
+ --radius-lg: 12px;
+ --shadow-card: 0 1px 4px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.02);
+ --shadow-elevated: 0 4px 16px rgba(0,0,0,0.06), 0 8px 32px rgba(0,0,0,0.04);
+ }
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+ background-color: var(--bg);
+ color: var(--text-primary);
+ line-height: 1.7;
+ letter-spacing: -0.01em;
+ -webkit-font-smoothing: antialiased;
+ }
+ .container-x900 {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 0 var(--spacing-md);
+ }
+ header {
+ background: var(--surface);
+ border-bottom: 1px solid var(--border);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ backdrop-filter: blur(12px);
+ background-color: rgba(255,255,255,0.92);
+ }
+ .nav-wrap-a1 {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: var(--spacing-sm) 0;
+ flex-wrap: wrap;
+ gap: var(--spacing-xs);
+ }
+ .logo-x82 {
+ font-weight: 700;
+ font-size: 1.3rem;
+ letter-spacing: -0.03em;
+ color: var(--text-primary);
+ text-decoration: none;
+ white-space: nowrap;
+ }
+ .logo-x82 span {
+ color: var(--accent);
+ }
+ .nav-links {
+ display: flex;
+ gap: var(--spacing-md);
+ list-style: none;
+ flex-wrap: wrap;
+ }
+ .nav-links a {
+ text-decoration: none;
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ font-weight: 500;
+ transition: color 0.2s;
+ white-space: nowrap;
+ }
+ .nav-links a:hover {
+ color: var(--accent);
+ }
+ .hero-section-b2 {
+ padding: var(--spacing-xl) 0 var(--spacing-lg);
+ text-align: center;
+ border-bottom: 1px solid var(--border);
+ margin-bottom: var(--spacing-lg);
+ }
+ h1 {
+ font-size: 2.6rem;
+ font-weight: 800;
+ letter-spacing: -0.04em;
+ line-height: 1.3;
+ margin-bottom: var(--spacing-sm);
+ color: var(--text-primary);
+ }
+ .hero-section-b2 p {
+ color: var(--text-secondary);
+ font-size: 1.05rem;
+ max-width: 600px;
+ margin: 0 auto;
+ }
+ .grid-layout-c3 {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ gap: var(--spacing-md);
+ margin-bottom: var(--spacing-xl);
+ }
+ .card-d4 {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-lg);
+ padding: var(--spacing-lg) var(--spacing-md);
+ box-shadow: var(--shadow-card);
+ transition: box-shadow 0.25s, transform 0.2s;
+ }
+ .card-d4:hover {
+ box-shadow: var(--shadow-elevated);
+ transform: translateY(-3px);
+ }
+ .card-d4 h3 {
+ font-size: 1.15rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-xs);
+ color: var(--text-primary);
+ }
+ .card-d4 .card-tag {
+ display: inline-block;
+ background: var(--accent);
+ color: #fff;
+ font-size: 0.7rem;
+ font-weight: 600;
+ padding: 2px 10px;
+ border-radius: 20px;
+ margin-bottom: var(--spacing-xs);
+ letter-spacing: 0.02em;
+ }
+ .card-d4 p {
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ line-height: 1.6;
+ }
+ .info-block {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-lg);
+ padding: var(--spacing-lg);
+ margin-bottom: var(--spacing-lg);
+ }
+ .info-block h2 {
+ font-size: 1.5rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-sm);
+ letter-spacing: -0.03em;
+ }
+ .info-block p {
+ color: var(--text-secondary);
+ margin-bottom: var(--spacing-sm);
+ font-size: 0.95rem;
+ }
+ .faq-section-e5 {
+ margin: var(--spacing-xl) 0;
+ }
+ .faq-section-e5 h2 {
+ font-size: 1.6rem;
+ font-weight: 700;
+ margin-bottom: var(--spacing-md);
+ }
+ .faq-item {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-md);
+ padding: var(--spacing-md);
+ margin-bottom: var(--spacing-sm);
+ }
+ .faq-item h4 {
+ font-weight: 700;
+ margin-bottom: 6px;
+ color: var(--text-primary);
+ }
+ .faq-item p {
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ }
+ .footer-f6 {
+ border-top: 1px solid var(--border);
+ padding: var(--spacing-lg) 0;
+ text-align: center;
+ color: var(--text-muted);
+ font-size: 0.8rem;
+ margin-top: var(--spacing-xl);
+ }
+ @media (max-width: 768px) {
+ h1 {
+ font-size: 1.9rem;
+ }
+ .container-x900 {
+ padding: 0 var(--spacing-sm);
+ }
+ .grid-layout-c3 {
+ grid-template-columns: 1fr;
+ }
+ .nav-links {
+ gap: var(--spacing-sm);
+ }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (3/3) · tokyo-webdev">
+  <meta property="og:description" content="tokyo-webdev에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://sinjeong-fullsalon-note.best-samseong-hotplace.xyz/posts-3.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container-x900">
+ <nav class="nav-wrap-a1">
+ <a href="/" class="logo-x9">홍대<span>정보</span></a>
+ <ul class="nav-links">
+ <li><a href="/">홈</a></li>
+ <li><a href="/guide">이용가이드</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/faq">FAQ</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 54개 · 3/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-1pydv6h.html">홍대 유흥 추천정보</a>
+        <p class="post-item__summary">홍대 주변에는 다양한 유흥 공간이 밀집해 있어 방문 목적에 따라 선택지가 넓은 지역으로 알려져 있습니다. 클럽,bars,카라ok 등 다양한 업종이 자리하고 있으며, 특히 젊은 층을 중심으로 한 문화</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-dbelgv.html">니들 홍대서 장사 왜 망하는지 알려줄까? 월 3000 찍고도 6개월 만에 접은 썰 푼다</a>
+        <p class="post-item__summary">내가 운영하던 술집이었다. 2023년 3월, 홍대 정문에서 200m 떨어진 2층에 자리 잡았고, 월 매출 3000만 원은 세 달 만에 찍었다. 손님은 줄 섰고, 인스타에는 태그 수백 개. 그런데도 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-tauxl8.html">유흥 해결 방법 총정리</a>
+        <p class="post-item__summary">우리는 주어진 지시사항을 따라 블로그 포스트를 작성해야 합니다. 페르소나는 '생계형 어그로꾼 감성팔이형'이며, '단골 손님'의 시점에서 '사장 몰래 메뉴별 원가 계산해서 블로그에 올리는 썰'이라는 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-xvkwee.html">권리금 2억 받고 튄 가게, 그 뒤에 숨은 홍대 생존 공식</a>
+        <p class="post-item__summary">2023년 8월, 홍대입구역 3번 출구에서 5분 거리. 내가 컨설팅했던 한 프렌차이즈 커피숍이 문을 닫았다. 사장님은 “임대료가 문제가 아니라, 유동인구가 다 어디 갔냐”고 울먹이더라. 그런데 이상</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-005-88crz6.html">권리금 2억 받고도 망한 가게, 그 뒤에 숨은 2000만원짜리 진실</a>
+        <p class="post-item__summary">권리금 2억이란 숫자는 홍대에서 이상한 위엄을 준다. 작년에 내가 컨설팅한 업소 중 하나, 주인 놈이 5년차 클럽 자리를 2억 3천에 넘기고 튀었어. 근데 6개월 만에 새 주인이 권리금은커녕 보증금</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-134bj4r.html">홍대 유흥 추천정보</a>
+        <p class="post-item__summary">정보의 홍수 속에서 길을 잃지 않는 법, 홍대 밤문화의 실체를 마주할 시간입니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-1furfhj.html">매출 3000 찍어도 적자인 이유: 홍대 룸싸롱 원가구조의 민낯</a>
+        <p class="post-item__summary">한 달에 3000만 원이 꽂히는데도 통장 잔고는 마이너스였던 적이 있다. 매출은 화려했지만, 원가의 늪에 빠져 허우적댔던 6개월의 기록이다. 지금은 문 닫은 그 가게, 내가 직접 운영했던 룸 단위 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-muqh7z.html">홍대에서 권리금 2억 받고 나간 가게, 지금은 왜 텅텅 비었나?</a>
+        <p class="post-item__summary">권리금 2억. 그 액수만 보면 “대박”이라고 생각했겠지. 근데 그 가게, 지금은 보안문만 덜렁 걸려있더라. 반면에 골목 안쪽 15평짜리 단체 가라오케는 3년째 자리 지키면서 매주 금요일이면 대기 줄</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1qg73k0.html">룸 가격대별 원가 구조, 홍대 유흥 추천정보 보고 덤볐다가 6개월 만에 철수한 썰</a>
+        <p class="post-item__summary">매출 3000만원 찍고도 적자라니, 처음엔 장부가 해킹된 줄 알았어. 내가 운영하던 룸은 홍대 메인 상권에서 한 블록 들어간 골목에 있었는데, 한 달 내내 예약이 꽉 차도 통장 잔고는 까먹기 바빴다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1snfwzi.html">권리금 2억 받고 나간 가게, 실거래 내역서 뜯어보니… 아, 이거 개뿔이네</a>
+        <p class="post-item__summary">“형, 이거 권리금 2억에 넘겼는데 지금 들어온 사장이 매달 500씩 적자라는 거야.” 그 말 듣는 순간, 나는 이미 그 가게의 원가 구조가 머릿속에 그려졌다. 그리고 그 실거래 내역서를 받아보고 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-pfghfs.html">홍대 룸업소 권리금 2억의 함정, 원가 구조 까발리며 마진율 따져보니</a>
+        <p class="post-item__summary">며칠 전, 권리금 2억에 홍대 근처 룸 단위 업소를 넘겼다는 사장님 전화를 받았다. “손님 줄었는데 2억이나 받아서 다행이야”라는 말에 괜히 속이 쓰렸다. 권리금이 높을수록 새 주인이 감당할 고정비</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-qw4xlv.html">...</a>
+        <p class="post-item__summary">우리는 생계형 어그로꾼 감성팔이형 캐릭터를 유지하면서, 룸 단위 서비스업 가격대별 원가 구조와 마진율의 실제 분포를 권리금 2억 받고 나간 가게의 실거래 내역서 관점에서 써야 한다. 주제는 '홍대 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-vf77ax.html">홍대 유흥 추천정보 찾기 전에 알아야 할 폐업 공식: 단골이 사장 몰래 원가 까발린 썰</a>
+        <p class="post-item__summary">지난주 금요일 밤 10시, 홍대입구역 3번 출구에서 200m 떨어진 그 치킨집 앞에 섰는데 유리문에 '임대문의' 스티커가 붙어있더라. 작년 이맘때까지만 해도 웨이팅 기본 30분이었는데.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001.html">야, 파이트 클럽 플래시 프레임? 형이 겪은 편집실 비화, 솔직히 좀 빡친다</a>
+        <p class="post-item__summary">솔직히 말해줄게. 내가 이 바닥에서 편집 짬밥 좀 먹은 형인데, *파이트 클럽* 얘기만 나오면 아직도 뒷목이 뻐근해. 다들 영화 속 &quot;타일러 더든의 싱글 프레임&quot; 가지고 막 심오한 분석이니 뭐니 떠</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <span class="pager__current">3</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
